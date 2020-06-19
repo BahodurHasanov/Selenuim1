@@ -9,8 +9,11 @@ public class First_Project {
         WebDriverManager.chromedriver().setup();
 
         WebDriver driver = new ChromeDriver();
-        driver.get("https://www.youtube.com/");
+        driver.get("https://www.facebook.com/");
+
         driver.manage().window().maximize();
         driver.close();
+
+
     }
 }
